@@ -31,3 +31,9 @@ configs/angelone_config.json
 
 # kite credentials - never commit
 configs/kite_config.json
+
+# APEX research data (large, regenerable via scripts/fetch_*.py)
+data/nse_archive/
+data/apex/
+data/angel/
+data/auction_shadow/

@@ -71,6 +71,17 @@ flipped too slowly, and the confidence score had collapsed to a constant. Later 
 Historical backtest (BankNifty 1-minute, in-sample): 437 trades, 49.2% win rate, treated only as a
 development benchmark.
 
+## Update, November 2026: the APEX research sweep
+
+After the live paper book was stopped (149 trades, **−₹31,948**), a second line of research tested whether
+longer holding periods and a ~200-stock universe could beat trading costs where intraday index trading
+could not. Twenty-one ideas were specified in advance and tested on 16 years of NSE data with realistic
+costs. **None passed.** One lead from market mechanics, the opening-auction fade, survives on paper in
+less liquid stocks and is unverified on real fills.
+
+What was done, how, and why it failed: [`research/README.md`](research/README.md).
+Full results: [`research/APEX_RESULTS.md`](research/APEX_RESULTS.md).
+
 ## Engineering
 
 | Area | What was built |
